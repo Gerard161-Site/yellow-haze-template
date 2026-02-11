@@ -6,7 +6,15 @@
   "version": "1.0.0",
   "author": "BudStack Platform",
   "category": "modern",
-  "tags": ["bold", "vibrant", "golden", "warm", "retro", "energetic", "amber"],
+  "tags": [
+    "bold",
+    "vibrant",
+    "golden",
+    "warm",
+    "retro",
+    "energetic",
+    "amber"
+  ],
   "features": [
     "Vibrant golden amber color palette",
     "Bold Sora headings with Inter body text",
@@ -23,20 +31,14 @@
   "price": 0,
   "isPremium": false,
   "isActive": true,
-  "components": [
-    {
-      "name": "Hero",
-      "path": "components/Hero.tsx",
-      "required": true,
-      "description": "Full-screen hero with warm gradient overlay"
-    },
-    {
-      "name": "ConsultationCTA",
-      "path": "components/ConsultationCTA.tsx",
-      "required": true,
-      "description": "Golden call-to-action section"
-    }
+  "components": [],
+  "sections": [
+    "HeroFullScreen",
+    "ValueProps",
+    "CTABanner"
   ],
+  "navigation": "NavFull",
+  "footer": "FooterFull",
   "customization": {
     "colors": {
       "primary": "#FFC107",

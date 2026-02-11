@@ -1,0 +1,23 @@
+{
+    "version": "1.0.0",
+    "navigation": "NavFull",
+    "sections": [
+        {
+            "type": "HeroFullScreen",
+            "id": "hero"
+        },
+        {
+            "type": "ValueProps",
+            "id": "value-props"
+        },
+        {
+            "type": "CTABanner",
+            "id": "cta"
+        }
+    ],
+    "footer": "FooterFull",
+    "settings": {
+        "wrapperClass": "template-yellow-haze",
+        "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap"
+    }
+}
